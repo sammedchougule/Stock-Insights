@@ -31,6 +31,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
+Google Finance Web Scraper
+This repository contains scripts to scrape and display real-time stock data from Google Finance. It includes data for all Nifty 50 stocks, as well as specific stocks based on user input. The project is built using JavaScript, with Puppeteer as the primary web-scraping library.
+
+Project Overview
+This project aims to:
+
+Gather real-time stock data from Google Finance.
+Display data dynamically on a Next.js website styled with Tailwind CSS.
+
+Fetches data for all Nifty 50 stocks and stores it in Redis.
+Fetches data for a specific stock based on the stock symbol.
+
+
+The scripts are set to update every 30 seconds to ensure near real-time stock data.
+Frontend Display
+
+The frontend of the project is built with Next.js, providing server-rendered pages for better performance.
+Tailwind CSS: Provides responsive and attractive styling.
+
+
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
