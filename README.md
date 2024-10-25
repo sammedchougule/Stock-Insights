@@ -31,7 +31,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-Google Finance Web Scraper
+Stock-Insight
+
 This repository contains scripts to scrape and display real-time stock data from Google Finance. It includes data for all Nifty 50 stocks, as well as specific stocks based on user input. The project is built using JavaScript, with Puppeteer as the primary web-scraping library.
 
 Project Overview
